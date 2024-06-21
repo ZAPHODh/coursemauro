@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should match snapshot 1`] = `
+<h1
+  class="sc-1c47ee21-0 gqrEvy"
+>
+  test
+</h1>
+`;
