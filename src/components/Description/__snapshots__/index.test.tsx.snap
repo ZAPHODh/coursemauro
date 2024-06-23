@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description should take a snapshot 1`] = `
+<p
+  class="sc-a2a9610f-0 grAeJi"
+>
+  test
+</p>
+`;

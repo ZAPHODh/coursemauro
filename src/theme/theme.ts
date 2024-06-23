@@ -10,4 +10,9 @@ export const theme: DefaultTheme = {
         gold: '#A76B09',
         brightGold: '#DDA74F',
     },
+    imgBorderEffects: {
+        borderThickness: '10px',
+        offset: '20px',
+        gap: '5px',
+    },
 }

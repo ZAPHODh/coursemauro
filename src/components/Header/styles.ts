@@ -8,5 +8,9 @@ export const Wrapper = styled.header`
         width: 100vw;
         height: 500px;
         background-color: ${theme.colors.darker};
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
     `}
 `

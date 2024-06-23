@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should take a headers snapshot 1`] = `
+<header
+  class="sc-925b7b98-0 fvnARU"
+>
+  <div>
+    <h1
+      class="sc-e26ab1cd-0 idkQwD"
+    >
+      test
+    </h1>
+    <p
+      class="sc-a2a9610f-0 dePwer"
+      maxwidth="440px"
+      padding="5px"
+    >
+      test
+    </p>
+    <button
+      class="sc-78528855-0 fAPeaZ"
+      font-size="inherit"
+      width="90%"
+    >
+      QUERO DOMINAR AS TÉCNICAS
+    </button>
+  </div>
+  <img
+    alt="foto-mauro"
+    data-nimg="1"
+    decoding="async"
+    height="537"
+    loading="lazy"
+    src="/_next/image?url=%2Fimg.jpg&w=828&q=75"
+    srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=828&q=75 2x"
+    style="color: transparent;"
+    width="376"
+  />
+</header>
+`;

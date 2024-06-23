@@ -8,7 +8,6 @@ export const Wrapper = styled.button<Button>`
         position: relative;
         height: 40px;
         overflow: hidden;
-        margin: 5px;
         width: ${width};
         padding: 10px;
         display: flex;

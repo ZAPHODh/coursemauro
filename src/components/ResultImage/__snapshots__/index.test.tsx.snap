@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultImage should take a resultImage snapshot 1`] = `
+<img
+  alt="test"
+  class="sc-73d527aa-0 fHlBsz"
+  data-nimg="1"
+  decoding="async"
+  height="40"
+  loading="lazy"
+  src="/img.jpg"
+  srcset="/img.jpg 1x, /img.jpg 2x"
+  style="color: transparent;"
+  width="40"
+/>
+`;

@@ -11,5 +11,10 @@ declare module 'styled-components' {
             gold: string
             brightGold: string
         }
+        imgBorderEffects: {
+            borderThickness: string
+            offset: srting
+            gap: string
+        }
     }
 }
