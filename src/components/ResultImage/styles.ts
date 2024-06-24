@@ -1,9 +1,8 @@
 'use client'
 
-import Img from 'next/image'
 import styled, { css } from 'styled-components'
 
-export const Image = styled(Img)`
+export const Img = styled.div`
     ${({ theme }) => css`
         overflow: hidden;
         border-radius: 10px;

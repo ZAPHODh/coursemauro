@@ -5,7 +5,7 @@ import { Heading } from '../Heading'
 import * as Styled from './styles'
 import mauroPic from '../../../public/images/mauro.webp'
 import { Button } from '../Button'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 export type HeaderProps = {
     course: string
@@ -24,6 +24,7 @@ export const Header = ({ course = '', description = '' }: HeaderProps) => {
             </div>
             <Styled.Img>
                 <Image
+                    priority
                     src={mauroPic.src}
                     alt="foto-mauro"
                     objectFit="cover"
