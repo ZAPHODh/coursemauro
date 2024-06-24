@@ -1,11 +1,11 @@
 'use client'
 
-import Image from 'next/image'
 import { Description } from '../Description'
 import { Heading } from '../Heading'
 import * as Styled from './styles'
 import mauroPic from '../../../public/images/mauro.webp'
 import { Button } from '../Button'
+import Image from 'next/image'
 
 export type HeaderProps = {
     course: string
@@ -17,17 +17,21 @@ export const Header = ({ course = '', description = '' }: HeaderProps) => {
         <Styled.Wrapper>
             <div>
                 <Heading>{course}</Heading>
-                <Description padding="5px" maxWidth="440px">
+                <Description padding="5px" maxWidth="365px">
                     {description}
                 </Description>
                 <Button>QUERO DOMINAR AS TÉCNICAS</Button>
             </div>
-            <Image
-                src={mauroPic.src}
-                alt="foto-mauro"
-                width={376}
-                height={537}
-            />
+            <Styled.Img>
+                <Image
+                    src={mauroPic.src}
+                    alt="foto-mauro"
+                    objectFit="cover"
+                    layout="responsive"
+                    width={mauroPic.width}
+                    height={mauroPic.height}
+                />
+            </Styled.Img>
         </Styled.Wrapper>
     )
 }

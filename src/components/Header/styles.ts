@@ -12,5 +12,16 @@ export const Wrapper = styled.header`
         align-items: center;
         justify-content: center;
         overflow: hidden;
+        padding: 0;
+    `}
+`
+
+export const Img = styled.div`
+    ${({ theme }) => css`
+        align-self: flex-end;
+        position: relative;
+        min-width: 300px;
+        margin: 0;
+        padding: 0;
     `}
 `

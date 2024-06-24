@@ -1,6 +1,6 @@
 'use client'
 
-import styled, { css, keyframes } from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.section`
     ${({ theme }) => css`
@@ -8,19 +8,20 @@ export const Wrapper = styled.section`
         /* background-color: ${theme.colors.dark}; */
         background: linear-gradient(
             to bottom,
-            ${theme.colors.darker} 60%,
+            ${theme.colors.dark} 60%,
             ${theme.colors.gold}
         );
         flex-wrap: nowrap;
         overflow-x: scroll;
         display: flex;
-        align-items: start;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
     `}
 `
 export const CollectorContainer = styled.div`
     ${({ theme }) => css`
+        min-width: 300px;
         overflow: hidden;
         display: flex;
         align-items: start;

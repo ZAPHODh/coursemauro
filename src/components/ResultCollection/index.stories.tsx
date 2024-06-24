@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { ResultCollection } from '.'
-import mauroPic from '../../../public/images/mauro.webp'
+import { images } from './mock/images'
 const meta = {
     title: 'Example/ResultCollection',
     component: ResultCollection,
@@ -19,13 +19,7 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
     args: {
-        results: [
-            { img: mauroPic, alt: 'test' },
-            { img: mauroPic, alt: 'test' },
-            { img: mauroPic, alt: 'test' },
-            { img: mauroPic, alt: 'test' },
-            { img: mauroPic, alt: 'test' },
-        ],
+        results: images,
         title: 'Resultados alcançados com a ensinada no curso',
     },
 }

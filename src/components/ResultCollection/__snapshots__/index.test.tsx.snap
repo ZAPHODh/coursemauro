@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultCollection should take a ResultCollection snapshot 1`] = `
+<div>
+  <section
+    aria-label="Coleção de Imagens"
+    class="sc-94e3b9c1-0 gXixWR"
+  >
+    <h2
+      class="sc-e26ab1cd-0 cioyZq"
+      padding="10px"
+    >
+      test
+    </h2>
+    <div
+      class="sc-94e3b9c1-1 gBMHrs"
+    >
+      <img
+        alt="test"
+        class="sc-73d527aa-0 fHlBsz"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/img.jpg"
+        srcset="/img.jpg 1x, /img.jpg 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="test"
+        class="sc-73d527aa-0 fHlBsz"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/img.jpg"
+        srcset="/img.jpg 1x, /img.jpg 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="test"
+        class="sc-73d527aa-0 fHlBsz"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/img.jpg"
+        srcset="/img.jpg 1x, /img.jpg 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="test"
+        class="sc-73d527aa-0 fHlBsz"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/img.jpg"
+        srcset="/img.jpg 1x, /img.jpg 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="test"
+        class="sc-73d527aa-0 fHlBsz"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/img.jpg"
+        srcset="/img.jpg 1x, /img.jpg 2x"
+        style="color: transparent;"
+        width="40"
+      />
+    </div>
+  </section>
+</div>
+`;

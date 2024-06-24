@@ -8,7 +8,7 @@ export type HeadingProps = {
 
 export const Heading = ({ children, as = 'h1', padding }: HeadingProps) => {
     return (
-        <Styled.Title as={as} padding={padding}>
+        <Styled.Title as={as} $padding={padding}>
             {children}
         </Styled.Title>
     )

@@ -10,9 +10,10 @@ export type ResultImageProps = {
 export const ResultImage = ({ img, alt }: ResultImageProps) => {
     return (
         <Styled.Image
-            loader={() => img.src}
             alt={alt}
             src={img.src}
+            objectFit="cover"
+            layout="responsive"
             height={img.height}
             width={img.width}
         />

@@ -18,7 +18,7 @@ export const Description = ({
     truncatedText = maxChars ? children.slice(0, maxChars) + '...' : children
 
     return (
-        <Styled.Wrapper padding={padding} maxWidth={maxWidth}>
+        <Styled.Wrapper $padding={padding} $maxWidth={maxWidth}>
             {truncatedText}
         </Styled.Wrapper>
     )
