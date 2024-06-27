@@ -1,6 +1,6 @@
 'use client'
 
-import Image, { StaticImageData } from 'next/image'
+import Image, { StaticImageData } from "next/legacy/image"
 import * as Styled from './styles'
 import { Heading } from '../Heading'
 import { Description } from '../Description'
