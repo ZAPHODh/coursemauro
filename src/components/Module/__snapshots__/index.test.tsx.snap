@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Heading should match snapshot 1`] = `
-<h1
+exports[`Module should take a snapshot of the document 1`] = `
+<h2
   class="sc-9eb0259e-0 kSMpJi"
 >
   test
-</h1>
+</h2>
 `;

@@ -9,7 +9,7 @@ interface WrapperProps {
 
 export const Wrapper = styled.p<WrapperProps>`
     ${({ $padding = '0', $maxWidth = '100vw', theme }) => css`
-        text-align: justify;
+        /* text-align: justify; */
         color: ${theme.colors.white};
         margin: 0;
         padding: ${$padding};

@@ -2,21 +2,45 @@
 
 exports[`Header should take a headers snapshot 1`] = `
 <header
-  class="sc-925b7b98-0 fvnARU"
+  class="sc-d9974887-0 hlujLl"
 >
-  <div>
+  <div
+    class="sc-d9974887-3 kDzqMH"
+  >
     <h1
-      class="sc-e26ab1cd-0 idkQwD"
+      class="sc-9eb0259e-0 kSMpJi"
     >
       test
     </h1>
     <p
-      class="sc-a2a9610f-0 dePwer"
-      maxwidth="440px"
-      padding="5px"
+      class="sc-69380e9b-0 dUNOmB"
     >
       test
     </p>
+  </div>
+  <div
+    class="sc-d9974887-1 jdLwFh"
+  >
+    <span
+      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+    >
+      <span
+        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+      />
+      <img
+        alt="foto-mauro"
+        data-nimg="responsive"
+        decoding="async"
+        sizes="100vw"
+        src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+      />
+    </span>
+  </div>
+  <div
+    class="sc-d9974887-2 ermuBJ"
+  >
     <button
       class="sc-78528855-0 fAPeaZ"
       font-size="inherit"
@@ -25,16 +49,5 @@ exports[`Header should take a headers snapshot 1`] = `
       QUERO DOMINAR AS TÉCNICAS
     </button>
   </div>
-  <img
-    alt="foto-mauro"
-    data-nimg="1"
-    decoding="async"
-    height="537"
-    loading="lazy"
-    src="/_next/image?url=%2Fimg.jpg&w=828&q=75"
-    srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=828&q=75 2x"
-    style="color: transparent;"
-    width="376"
-  />
 </header>
 `;

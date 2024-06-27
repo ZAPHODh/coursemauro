@@ -1,22 +1,23 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import ResultImage from '.'
-import mauroPic from '../../../public/images/mauro.webp'
+import Module from '.'
+
 const meta = {
-    title: 'Example/ResultImage',
-    component: ResultImage,
+    title: 'Example/Module',
+    component: Module,
     parameters: {
         layout: 'centered',
     },
     tags: ['autodocs'],
     argTypes: {
-        alt: String,
+        name: String,
+        number: Number,
     },
-} satisfies Meta<typeof ResultImage>
+} satisfies Meta<typeof Module>
 
 export default meta
 
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
-    args: { img: mauroPic, alt: 'test' },
+    args: { name: 'Introdução', number: 2 },
 }

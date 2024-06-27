@@ -2,11 +2,16 @@
 
 import styled, { css } from 'styled-components'
 
-export const Img = styled.div`
+export const Image = styled.div`
     ${({ theme }) => css`
+        width: 300px;
+        height: 400px;
         overflow: hidden;
         border-radius: 10px;
-        border: 3px solid ${theme.colors.gold};
-        margin: 10px;
+        border: 1px solid ${theme.colors.brightGold};
+        margin: 10px 5px;
+        @media (max-width: 726px) {
+            width: 90vw;
+        }
     `}
 `

@@ -4,77 +4,116 @@ exports[`ResultCollection should take a ResultCollection snapshot 1`] = `
 <div>
   <section
     aria-label="Coleção de Imagens"
-    class="sc-94e3b9c1-0 gXixWR"
+    class="sc-21db9107-0 ihEvon"
   >
     <h2
-      class="sc-e26ab1cd-0 cioyZq"
-      padding="10px"
+      class="sc-9eb0259e-0 cTNmEv"
     >
       test
     </h2>
     <div
-      class="sc-94e3b9c1-1 gBMHrs"
+      class="sc-21db9107-1 fzolCm"
     >
-      <img
-        alt="test"
-        class="sc-73d527aa-0 fHlBsz"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/img.jpg"
-        srcset="/img.jpg 1x, /img.jpg 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="test"
-        class="sc-73d527aa-0 fHlBsz"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/img.jpg"
-        srcset="/img.jpg 1x, /img.jpg 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="test"
-        class="sc-73d527aa-0 fHlBsz"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/img.jpg"
-        srcset="/img.jpg 1x, /img.jpg 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="test"
-        class="sc-73d527aa-0 fHlBsz"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/img.jpg"
-        srcset="/img.jpg 1x, /img.jpg 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="test"
-        class="sc-73d527aa-0 fHlBsz"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/img.jpg"
-        srcset="/img.jpg 1x, /img.jpg 2x"
-        style="color: transparent;"
-        width="40"
-      />
+      <div
+        class="sc-ed3582c0-0 cjSlVN"
+      >
+        <span
+          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+          />
+          <img
+            alt="test"
+            data-nimg="responsive"
+            decoding="async"
+            sizes="100vw"
+            src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+        </span>
+      </div>
+      <div
+        class="sc-ed3582c0-0 cjSlVN"
+      >
+        <span
+          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+          />
+          <img
+            alt="test"
+            data-nimg="responsive"
+            decoding="async"
+            sizes="100vw"
+            src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+        </span>
+      </div>
+      <div
+        class="sc-ed3582c0-0 cjSlVN"
+      >
+        <span
+          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+          />
+          <img
+            alt="test"
+            data-nimg="responsive"
+            decoding="async"
+            sizes="100vw"
+            src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+        </span>
+      </div>
+      <div
+        class="sc-ed3582c0-0 cjSlVN"
+      >
+        <span
+          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+          />
+          <img
+            alt="test"
+            data-nimg="responsive"
+            decoding="async"
+            sizes="100vw"
+            src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+        </span>
+      </div>
+      <div
+        class="sc-ed3582c0-0 cjSlVN"
+      >
+        <span
+          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 100% 0px 0px 0px;"
+          />
+          <img
+            alt="test"
+            data-nimg="responsive"
+            decoding="async"
+            sizes="100vw"
+            src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+          />
+        </span>
+      </div>
     </div>
   </section>
 </div>

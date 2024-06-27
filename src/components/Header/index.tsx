@@ -13,15 +13,16 @@ export type HeaderProps = {
 }
 
 export const Header = ({ course = '', description = '' }: HeaderProps) => {
+    const onClick = () => {
+        window.location.href =
+            'https://hotmart.com/pt-br/marketplace/produtos/iluminados-sem-segredos/F93860282Y'
+    }
     return (
         <Styled.Wrapper>
-            <div>
+            <Styled.TitleContainer>
                 <Heading>{course}</Heading>
-                <Description padding="5px" maxWidth="365px">
-                    {description}
-                </Description>
-                <Button>QUERO DOMINAR AS TÉCNICAS</Button>
-            </div>
+                <Description maxWidth="360px">{description}</Description>
+            </Styled.TitleContainer>
             <Styled.Img>
                 <Image
                     priority
@@ -33,6 +34,9 @@ export const Header = ({ course = '', description = '' }: HeaderProps) => {
                     height={mauroPic.height}
                 />
             </Styled.Img>
+            <Styled.ButtonContainer>
+                <Button onClick={onClick}>QUERO DOMINAR AS TÉCNICAS</Button>
+            </Styled.ButtonContainer>
         </Styled.Wrapper>
     )
 }
