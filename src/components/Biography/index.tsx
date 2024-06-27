@@ -11,7 +11,7 @@ export type BiographyProps = {
 export const Biography = ({ biography }: BiographyProps) => {
     return (
         <Styled.Wrapper>
-            <Heading as="h3">Biografia</Heading>
+            <Heading as="h2">Biografia</Heading>
             <Styled.BiographyContainer>
                 <Heading as="h4">Quém é Mauro Chrisostimo?</Heading>
                 {biography.map((paragraph) => (

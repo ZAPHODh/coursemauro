@@ -9,7 +9,8 @@ export const Wrapper = styled.section`
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: ${theme.colors.dark};
+        background-color: ${theme.colors.darker};
+        padding-bottom: 50px;
         ${Title} {
             font-size: 30px;
         }

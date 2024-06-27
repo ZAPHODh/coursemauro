@@ -8,6 +8,8 @@ import { ResultCollection } from '@/components/ResultCollection'
 import { images } from '@/components/ResultCollection/mock/images'
 import { biography } from '@/components/Biography/mock'
 import { PaymentPlan } from '@/components/PaymentPlan'
+import { Footer } from '@/components/Footer'
+import { medias } from '@/components/Footer/utils/mock'
 
 export default function Home() {
     return (
@@ -45,6 +47,10 @@ export default function Home() {
                     'beneficio ',
                     'beneficio ',
                 ]}
+            />
+            <Footer
+                name="Mauro Chrisostimo - Todos os direitos reservados"
+                medias={medias}
             />
         </main>
     )

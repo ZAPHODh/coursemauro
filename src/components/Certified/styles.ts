@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.section`
     ${({ theme }) => css`
-        background-color: ${theme.colors.brightDark};
+        background-color: ${theme.colors.dark};
         width: 100vw;
         display: flex;
         align-items: center;

@@ -14,8 +14,9 @@ export type CertifiedProps = {
 export const Certified = ({ img, heading, description }: CertifiedProps) => {
     return (
         <Styled.Wrapper>
+            <Heading as="h2">Certficiação</Heading>
             <Styled.ContentContainer>
-                <Heading>{heading}</Heading>
+                <Heading as="h3">{heading}</Heading>
                 <Description>{description}</Description>
             </Styled.ContentContainer>
             <Styled.ImageContainer>

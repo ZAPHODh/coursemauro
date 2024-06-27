@@ -5,21 +5,14 @@ import styled, { css } from 'styled-components'
 export const Wrapper = styled.section`
     ${({ theme }) => css`
         width: 100vw;
-        background: linear-gradient(
-            to bottom,
-            ${theme.colors.dark} 60%,
-            ${theme.colors.gold}
-        );
-        flex-wrap: nowrap;
+        background-color: ${theme.colors.dark};
         overflow-x: scroll;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         flex-direction: column;
         margin: 0;
-        @media (max-width: 726px) {
-            background: ${theme.colors.dark};
-        }
+        min-height: 600px;
         overflow: hidden;
     `}
 `
