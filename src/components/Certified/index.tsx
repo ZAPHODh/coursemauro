@@ -1,6 +1,6 @@
 'use client'
 
-import Image, { StaticImageData } from "next/legacy/image"
+import Image, { StaticImageData } from 'next/legacy/image'
 import * as Styled from './styles'
 import { Heading } from '../Heading'
 import { Description } from '../Description'
@@ -24,7 +24,6 @@ export const Certified = ({ img, heading, description }: CertifiedProps) => {
                     src={img.src}
                     priority
                     objectFit="cover"
-                    layout="responsive"
                     height={img.height}
                     width={img.width}
                 />

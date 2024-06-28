@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 
 export const Image = styled.div`
     ${({ theme }) => css`
-        width: 300px;
+        width: 400px;
         height: 400px;
         overflow: hidden;
         border-radius: 10px;
