@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Footer } from '.'
-import { medias } from './utils/mock'
+import { footerData } from '@/data/footerData'
 
 const meta = {
     title: 'Example/Footer',
@@ -21,7 +21,7 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
     args: {
-        name: 'Mauro Chrisostimo - Todos os direitos reservados',
-        medias: medias,
+        name: footerData.name,
+        medias: footerData.medias,
     },
 }

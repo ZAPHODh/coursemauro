@@ -12,6 +12,10 @@ export type PaymentPlanProps = {
 }
 
 export const PaymentPlan = ({ value, benefits }: PaymentPlanProps) => {
+    const onClick = () => {
+        window.location.href =
+            'https://hotmart.com/pt-br/marketplace/produtos/iluminados-sem-segredos/F93860282Y'
+    }
     return (
         <Styled.Wrapper>
             <Heading as="h3">Valores</Heading>
@@ -27,7 +31,7 @@ export const PaymentPlan = ({ value, benefits }: PaymentPlanProps) => {
                             </Styled.Li>
                         ))}
                     </Styled.Ul>
-                    <Button>Compre agora</Button>
+                    <Button onClick={onClick}>Compre agora</Button>
                     <Description maxWidth="90%">
                         Você será redirecionado para uma página 100% segura
                     </Description>

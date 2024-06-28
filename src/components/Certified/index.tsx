@@ -1,6 +1,6 @@
 'use client'
 
-import Image, { StaticImageData } from "next/legacy/image"
+import Image, { StaticImageData } from 'next/image'
 import * as Styled from './styles'
 import { Heading } from '../Heading'
 import { Description } from '../Description'
@@ -14,9 +14,8 @@ export type CertifiedProps = {
 export const Certified = ({ img, heading, description }: CertifiedProps) => {
     return (
         <Styled.Wrapper>
-            <Heading as="h2">Certficiação</Heading>
             <Styled.ContentContainer>
-                <Heading as="h3">{heading}</Heading>
+                <Heading as="h2">{heading}</Heading>
                 <Description>{description}</Description>
             </Styled.ContentContainer>
             <Styled.ImageContainer>

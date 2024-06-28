@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { Heading } from '../Heading'
 import ResultImage, { ResultImageProps } from '../ResultImage'
 
-import { images } from './mock/images'
+import { images } from '../../data/resultCollectionData'
 import { useRef } from 'react'
 
 export type ResultCollectionProps = {

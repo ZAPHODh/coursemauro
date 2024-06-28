@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react'
 import { ResultCollection } from '.'
 import { ThemeClient } from '../../theme/ThemeClient'
-import { images } from './mock/images'
+import { images } from '../../data/resultCollectionData'
 
 describe('ResultCollection', () => {
     it('should render the ResultCollection', () => {

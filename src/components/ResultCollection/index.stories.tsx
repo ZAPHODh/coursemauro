@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { ResultCollection } from '.'
-import { images } from './mock/images'
+import { images } from '../../data/resultCollectionData'
 const meta = {
     title: 'Example/ResultCollection',
     component: ResultCollection,

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Biography } from '.'
-import { biography } from './mock'
+import { biographyData } from '@/data/biographyData'
 
 const meta = {
     title: 'Example/Biography',
@@ -20,6 +20,6 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
     args: {
-        biography: biography,
+        biography: biographyData,
     },
 }

@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.footer`
     ${({ theme }) => css`
+        width: 100vw;
         min-height: 150px;
         color: ${theme.colors.white};
         display: flex;

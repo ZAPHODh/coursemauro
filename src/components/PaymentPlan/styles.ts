@@ -6,6 +6,7 @@ import { Wrapper as Button } from '../Button/styles'
 import { Wrapper as Description } from '../Description/styles'
 export const Wrapper = styled.section`
     ${({ theme }) => css`
+        width: 100vw;
         background-color: ${theme.colors.dark};
         color: ${theme.colors.gold};
         display: flex;

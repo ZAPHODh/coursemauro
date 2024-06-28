@@ -1,57 +1,42 @@
 import { Biography } from '@/components/Biography'
-import certifiedImage from '../../public/images/certified.webp'
-
 import { Certified } from '@/components/Certified'
 import { Header } from '@/components/Header'
 import { ModuleCollection } from '@/components/ModuleCollection'
 import { ResultCollection } from '@/components/ResultCollection'
-import { images } from '@/components/ResultCollection/mock/images'
-import { biography } from '@/components/Biography/mock'
 import { PaymentPlan } from '@/components/PaymentPlan'
 import { Footer } from '@/components/Footer'
-import { medias } from '@/components/Footer/utils/mock'
+
+import { modules } from '@/data/modulesData'
+import { paymentData } from '@/data/paymentData'
+import { resultCollectionData } from '@/data/resultCollectionData'
+import { footerData } from '@/data/footerData'
+import { certifiedData } from '@/data/certifiedData'
+import { headerData } from '@/data/headerData'
+import { biographyData } from '@/data/biographyData'
 
 export default function Home() {
     return (
         <main>
             <Header
-                course="Iluminados sem segredos"
-                description="descrição legal que que ta acontecendo vey meu deus caramba parece ta estranho"
+                course={headerData.course}
+                description={headerData.description}
             />
             <ResultCollection
-                results={images}
-                title="Resultados que voce irá alcançar"
+                results={resultCollectionData.images}
+                title={resultCollectionData.title}
             />
-            <ModuleCollection
-                modules={[
-                    { name: 'INTRODUÇÃO', number: 1 },
-                    { name: 'MONTAGEM', number: 2 },
-                    { name: 'ERIÇADO', number: 3 },
-                    { name: 'TÉCNICA', number: 4 },
-                    { name: 'sleep', number: 6 },
-                ]}
-            />
+            <ModuleCollection modules={modules} />
             <Certified
-                heading="Certificado"
-                img={certifiedImage}
-                description="teste"
+                heading={certifiedData.heading}
+                img={certifiedData.img}
+                description={certifiedData.description}
             />
-            <Biography biography={biography} />
+            <Biography biography={biographyData} />
             <PaymentPlan
-                value={145}
-                benefits={[
-                    'beneficio ',
-                    'beneficio ',
-                    'beneficio ',
-                    'beneficio ',
-                    'beneficio ',
-                    'beneficio ',
-                ]}
+                value={paymentData.value}
+                benefits={paymentData.benefits}
             />
-            <Footer
-                name="Mauro Chrisostimo - Todos os direitos reservados"
-                medias={medias}
-            />
+            <Footer name={footerData.name} medias={footerData.medias} />
         </main>
     )
 }
