@@ -18,6 +18,7 @@ const ResultImage = forwardRef<HTMLDivElement, ResultImageProps>(
                     alt={alt}
                     src={img.src}
                     objectFit="cover"
+                    loading="lazy"
                     layout="responsive"
                     height={img.height}
                     width={img.width}

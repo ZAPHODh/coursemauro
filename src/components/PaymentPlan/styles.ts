@@ -31,6 +31,7 @@ export const Card = styled.div`
         overflow: hidden;
         border: 3px solid ${theme.colors.gold};
         border-radius: 20px;
+        color: ${theme.colors.white};
         @media (max-width: 762px) {
             width: 90%;
         }

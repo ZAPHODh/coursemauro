@@ -5,6 +5,7 @@ type Button = {
 }
 export const Wrapper = styled.button<Button>`
     ${({ width, fontSize, theme }) => css`
+        color: ${theme.colors.white};
         position: relative;
         height: 40px;
         overflow: hidden;
