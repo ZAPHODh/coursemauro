@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { ResultCollection } from '.'
-import { images } from '../../data/resultCollectionData'
+import { resultCollectionData } from '@/data/resultCollectionData'
+
 const meta = {
     title: 'Example/ResultCollection',
     component: ResultCollection,
@@ -19,7 +20,7 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
     args: {
-        results: images,
+        results: resultCollectionData.images,
         title: 'Resultados alcançados com a ensinada no curso',
     },
 }

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Biography should render match snapshot 1`] = `
+<p
+  class="sc-69380e9b-0 dUhRVp"
+>
+  Comecei minha carreira como cabeleireiro há 19 anos, em um cômodo minúsculo de uma barbearia de bairro, focando inicialmente em cortes masculinos. Desde o início, eu sabia que precisaria batalhar muito para alcançar meus objetivos. Foi nessa época que comecei a estudar técnicas de iluminação, usando amigos e familiares como modelos para testar, aprender e obter bons resultados.
+</p>
+`;

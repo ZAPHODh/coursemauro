@@ -6,12 +6,13 @@ import { Wrapper as Button } from '../Button/styles'
 import { Wrapper as Description } from '../Description/styles'
 export const Wrapper = styled.section`
     ${({ theme }) => css`
+        padding-bottom: 50px;
         width: 100vw;
         background-color: ${theme.colors.dark};
         color: ${theme.colors.gold};
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         flex-direction: column;
         ${Title} {
             font-size: 30px;

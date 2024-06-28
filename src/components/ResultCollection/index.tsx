@@ -6,7 +6,6 @@ import { v4 as uuidv4 } from 'uuid'
 import { Heading } from '../Heading'
 import ResultImage, { ResultImageProps } from '../ResultImage'
 
-import { images } from '../../data/resultCollectionData'
 import { useRef } from 'react'
 
 export type ResultCollectionProps = {
@@ -14,10 +13,7 @@ export type ResultCollectionProps = {
     results: ResultImageProps[]
 }
 
-export const ResultCollection = ({
-    results = images,
-    title,
-}: ResultCollectionProps) => {
+export const ResultCollection = ({ results, title }: ResultCollectionProps) => {
     const imagesRef = useRef<(HTMLDivElement | null)[]>([])
     const sectionRef = useRef<HTMLDivElement>(null)
     const containerRef = useRef<HTMLDivElement>(null)
