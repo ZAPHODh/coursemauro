@@ -22,7 +22,7 @@ export const GlobalStyles = createGlobalStyle`${() => css`
     body {
         padding: 0;
         margin: 0;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     ,
     input {
