@@ -1,6 +1,7 @@
 'use client'
 
 import styled, { css } from 'styled-components'
+import { Title } from '../Heading/styles'
 
 export const Wrapper = styled.header`
     ${({ theme }) => css`
@@ -46,4 +47,11 @@ export const TitleContainer = styled.div`
     align-items: start;
     justify-content: start;
     flex-direction: column;
+    @media (max-width: 726px) {
+        align-items: center;
+        justify-content: center;
+        ${Title} {
+            font-size: 25px;
+        }
+    }
 `
