@@ -16,7 +16,7 @@ import { biographyData } from '@/data/biographyData'
 
 export default function Home() {
     return (
-        <main>
+        <>
             <Header
                 course={headerData.course}
                 description={headerData.description}
@@ -37,6 +37,6 @@ export default function Home() {
                 benefits={paymentData.benefits}
             />
             <Footer name={footerData.name} medias={footerData.medias} />
-        </main>
+        </>
     )
 }
