@@ -12,6 +12,7 @@ const montserrat = Montserrat({
 
 export const GlobalStyles = createGlobalStyle`${() => css`
     html {
+        max-width: 100vw;
         padding: 0;
         margin: 0;
         font-family: ${montserrat.style.fontFamily};
