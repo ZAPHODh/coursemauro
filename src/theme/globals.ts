@@ -13,13 +13,13 @@ const montserrat = Montserrat({
 export const GlobalStyles = createGlobalStyle`${() => css`
     html {
         font-family: ${montserrat.style.fontFamily};
-        max-width: 100vw;
     }
     ,
     main {
         max-width: 100vw;
     }
     body {
+        max-width: 100vw;
         padding: 0;
         margin: 0;
         overflow-x: hidden;
