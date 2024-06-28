@@ -13,7 +13,7 @@ export const Biography = ({ biography }: BiographyProps) => {
         <Styled.Wrapper>
             <Heading as="h2">Biografia</Heading>
             <Styled.BiographyContainer>
-                <Heading as="h4">Quém é Mauro Chrisostimo?</Heading>
+                <Heading as="h3">Quém é Mauro Chrisostimo?</Heading>
                 {biography.map((paragraph) => (
                     <Description maxWidth="500px" key={uuidv4()}>
                         {paragraph}

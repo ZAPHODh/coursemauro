@@ -18,7 +18,7 @@ export const Header = ({ course = '', description = '' }: HeaderProps) => {
             'https://hotmart.com/pt-br/marketplace/produtos/iluminados-sem-segredos/F93860282Y'
     }
     return (
-        <Styled.Wrapper role="main">
+        <Styled.Wrapper>
             <Styled.TitleContainer>
                 <Heading>{course}</Heading>
                 <Description maxWidth="360px">{description}</Description>
