@@ -11,35 +11,36 @@ const montserrat = Montserrat({
 })
 
 export const GlobalStyles = createGlobalStyle`${() => css`
-    html {
+    html,
+    body {
+        width: 100%;
         max-width: 100vw;
         padding: 0;
         margin: 0;
         font-family: ${montserrat.style.fontFamily};
+        overflow-x: hidden;
     }
-    ,
+
     main {
-        max-width: 100vw;
-    }
-    body {
+        width: 100%;
         max-width: 100vw;
         padding: 0;
         margin: 0;
-        overflow-x: hidden;
     }
-    ,
+
     input {
         font-family: inherit;
     }
-    ,
+
     a {
         color: inherit;
+        text-decoration: none;
     }
-    ,
+
     * {
         box-sizing: border-box;
     }
-    ,
+
     button {
         font-family: inherit;
     }
