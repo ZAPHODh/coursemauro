@@ -3,7 +3,6 @@ import { Montserrat } from 'next/font/google'
 import StyledComponentsRegistry from '../lib/registry'
 import { GlobalStyles } from '../theme/globals'
 import { ThemeClient } from '../theme/ThemeClient'
-import { GoogleAnalytics } from '@next/third-parties/google'
 const montserrat = Montserrat({
     subsets: ['latin'],
     fallback: ['Georgia', 'ui-serif', 'serif'],
@@ -28,9 +27,6 @@ export default function RootLayout({
                         {children}
                     </StyledComponentsRegistry>
                 </ThemeClient>
-                <GoogleAnalytics
-                    gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYZER}
-                />
             </body>
             <GlobalStyles />
         </html>
