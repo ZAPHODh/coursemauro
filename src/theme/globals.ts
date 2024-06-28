@@ -15,6 +15,9 @@ export const GlobalStyles = createGlobalStyle`${() => css`
         font-family: ${montserrat.style.fontFamily};
     }
     ,
+    main {
+        width: 100vw;
+    }
     body {
         padding: 0;
         margin: 0;
