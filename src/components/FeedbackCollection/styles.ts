@@ -25,7 +25,7 @@ export const Container = styled.div`
         display: flex;
         animation: ${swipe} ${feedbackData.length * 0.5}s linear infinite;
         @media (max-width: 768px) {
-            animation: ${swipeMobile} ${feedbackData.length * 1.75}s linear
+            animation: ${swipeMobile} ${feedbackData.length * 7}s linear
                 infinite;
         }
     `}
