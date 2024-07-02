@@ -19,6 +19,7 @@ export const Wrapper = styled.section`
 `
 export const BiographyContainer = styled.div`
     ${({ theme }) => css`
+        text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;

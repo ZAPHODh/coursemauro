@@ -23,6 +23,7 @@ const swipeMobile = keyframes`
 export const Container = styled.div`
     ${({ theme }) => css`
         display: flex;
+        max-height: 800px;
         animation: ${swipe} ${feedbackData.length * 0.5}s linear infinite;
         @media (max-width: 768px) {
             animation: ${swipeMobile} ${feedbackData.length * 7}s linear
