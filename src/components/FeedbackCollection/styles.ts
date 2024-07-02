@@ -7,7 +7,7 @@ const swipe = keyframes`
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(${(feedbackData.length * -100) / 5}vw);
 
   }
 `
@@ -16,18 +16,20 @@ const swipeMobile = keyframes`
     transform: translateX(0);
   }
   100% {
-    transform: translateX(${feedbackData.length * -100}%);
+    transform: translateX(${feedbackData.length * -100}vw);
   }
 `
 
 export const Container = styled.div`
     ${({ theme }) => css`
         display: flex;
-        max-height: 800px;
-        animation: ${swipe} ${feedbackData.length * 0.5}s linear infinite;
+        animation: ${swipe} ${feedbackData.length * 7}s linear infinite;
         @media (max-width: 768px) {
-            animation: ${swipeMobile} ${feedbackData.length * 7}s linear
+            animation: ${swipeMobile} ${feedbackData.length * 14}s linear
                 infinite;
+        }
+        @media (min-width: 768px) {
+            max-height: 800px;
         }
     `}
 `
