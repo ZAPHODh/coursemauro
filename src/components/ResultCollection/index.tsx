@@ -4,9 +4,7 @@ import * as Styled from './styles'
 
 import { v4 as uuidv4 } from 'uuid'
 import { Heading } from '../Heading'
-import ResultImage, { ResultImageProps } from '../ResultImage'
-
-import { useRef } from 'react'
+import { ResultImage, ResultImageProps } from '../ResultImage'
 
 export type ResultCollectionProps = {
     title: string
@@ -14,21 +12,14 @@ export type ResultCollectionProps = {
 }
 
 export const ResultCollection = ({ results, title }: ResultCollectionProps) => {
-    const imagesRef = useRef<(HTMLDivElement | null)[]>([])
-    const sectionRef = useRef<HTMLDivElement>(null)
-    const containerRef = useRef<HTMLDivElement>(null)
-
     return (
-        <Styled.Wrapper aria-label="Coleção de Imagens" ref={sectionRef}>
+        <Styled.Wrapper aria-label="Coleção de Imagens">
             <Heading as="h2" padding="10px">
                 {title}
             </Heading>
-            <Styled.CollectorContainer ref={containerRef}>
-                {results.map((result, index) => (
+            <Styled.CollectorContainer>
+                {results.map((result) => (
                     <ResultImage
-                        ref={(el) => {
-                            imagesRef.current[index] = el
-                        }}
                         alt={result.alt}
                         img={result.img}
                         key={uuidv4()}

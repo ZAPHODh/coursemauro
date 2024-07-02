@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react'
-import ResultImage from '.'
+import { ResultImage } from '.'
 import { ThemeClient } from '../../theme/ThemeClient'
 import mauroPic from '../../../public/images/mauro.webp'
 describe('ResultImage', () => {

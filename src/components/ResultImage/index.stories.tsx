@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import ResultImage from '.'
+import { ResultImage } from '.'
 import mauroPic from '../../../public/images/mauro.webp'
 const meta = {
     title: 'Example/ResultImage',
