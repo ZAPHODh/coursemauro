@@ -13,6 +13,8 @@ import { footerData } from '@/data/footerData'
 import { certifiedData } from '@/data/certifiedData'
 import { headerData } from '@/data/headerData'
 import { biographyData } from '@/data/biographyData'
+import { FeedbackCollection } from '@/components/FeedbackCollection'
+import { feedbackData } from '@/data/feedbackData'
 
 export default function Home() {
     return (
@@ -36,6 +38,7 @@ export default function Home() {
                 value={paymentData.value}
                 benefits={paymentData.benefits}
             />
+            <FeedbackCollection feedbacks={feedbackData} />
             <Footer name={footerData.name} medias={footerData.medias} />
         </>
     )
