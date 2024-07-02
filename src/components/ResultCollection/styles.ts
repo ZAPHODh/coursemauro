@@ -1,6 +1,7 @@
 'use client'
 
 import styled, { css } from 'styled-components'
+import { Title } from '../Heading/styles'
 
 export const Wrapper = styled.section`
     ${({ theme }) => css`
@@ -14,6 +15,12 @@ export const Wrapper = styled.section`
         margin: 0;
         min-height: 600px;
         overflow: hidden;
+        @media (max-width: 726px) {
+            ${Title} {
+                padding-top: 20px;
+                font-size: 20px;
+            }
+        }
     `}
 `
 export const CollectorContainer = styled.div`
