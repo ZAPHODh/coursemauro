@@ -7,7 +7,7 @@ const swipe = keyframes`
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
 
   }
 `
@@ -23,7 +23,7 @@ const swipeMobile = keyframes`
 export const Container = styled.div`
     ${({ theme }) => css`
         display: flex;
-        animation: ${swipe} ${feedbackData.length * 0.75}s linear infinite;
+        animation: ${swipe} ${feedbackData.length * 0.5}s linear infinite;
         @media (max-width: 768px) {
             animation: ${swipeMobile} ${feedbackData.length * 1.75}s linear
                 infinite;
