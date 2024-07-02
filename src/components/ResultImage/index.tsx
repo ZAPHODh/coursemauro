@@ -1,7 +1,7 @@
 'use client'
 
-import { StaticImageData } from 'next/legacy/image'
-import Image from 'next/legacy/image'
+import { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import * as Styled from './styles'
 import React, { forwardRef } from 'react'
 
@@ -17,11 +17,13 @@ const ResultImage = forwardRef<HTMLDivElement, ResultImageProps>(
                 <Image
                     alt={alt}
                     src={img.src}
-                    objectFit="cover"
-                    loading="lazy"
-                    layout="responsive"
-                    height={img.height}
-                    width={img.width}
+                    priority
+                    fill
+                    sizes="(max-width: 762px) 100vw, (min-width: 763px) 20vw"
+                    style={{
+                        height: '100%',
+                        width: '100%',
+                    }}
                 />
             </Styled.Image>
         )

@@ -18,14 +18,11 @@ export const Wrapper = styled.section`
 `
 export const CollectorContainer = styled.div`
     ${({ theme }) => css`
-        min-width: 300px;
+        width: 100vw;
         display: flex;
-        align-items: start;
-        justify-content: start;
+        align-items: center;
+        justify-content: center;
         @media (max-width: 726px) {
-            width: 100vw;
-            align-items: center;
-            justify-content: center;
             flex-direction: column;
         }
     `}

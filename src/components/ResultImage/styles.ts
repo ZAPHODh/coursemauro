@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components'
 
 export const Image = styled.div`
     ${({ theme }) => css`
+        position: relative;
         width: 400px;
         height: 400px;
         overflow: hidden;
