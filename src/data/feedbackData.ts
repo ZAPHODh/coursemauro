@@ -23,7 +23,7 @@ import feedback22 from '@/../public/images/feedback/22.jpeg'
 import feedback23 from '@/../public/images/feedback/23.jpeg'
 import feedback24 from '@/../public/images/feedback/24.jpeg'
 import feedback25 from '@/../public/images/feedback/25.jpeg'
-import feedback26 from '@/../public/images/feedback/26.jpeg'
+
 export const feedbackData = [
     feedback1,
     feedback2,
@@ -50,5 +50,13 @@ export const feedbackData = [
     feedback23,
     feedback24,
     feedback25,
-    feedback26,
 ]
+// // Importing images using require.context
+// const feedbackImages = require.context(
+//     '@/../public/images/feedback',
+//     false,
+//     /\.(jpeg|jpg|png|gif)$/
+// )
+
+// // Creating an array of image paths
+// export const feedbackData = feedbackImages.keys().map(feedbackImages)
