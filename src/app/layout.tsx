@@ -3,6 +3,7 @@ import { Montserrat } from 'next/font/google'
 import StyledComponentsRegistry from '../lib/registry'
 import { GlobalStyles } from '../theme/globals'
 import { ThemeClient } from '../theme/ThemeClient'
+import { GoogleTagManager } from '@next/third-parties/google'
 const montserrat = Montserrat({
     subsets: ['latin'],
     fallback: ['Georgia', 'ui-serif', 'serif'],
@@ -21,6 +22,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="pt-BR">
+            <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_ANALYZER} />
             <body className={montserrat.className}>
                 <ThemeClient>
                     <StyledComponentsRegistry>
