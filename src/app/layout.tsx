@@ -12,9 +12,9 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-    title: 'Curso de morena iluminda - Iluminados sem segredos',
+    title: 'Iluminados sem segredos',
     description:
-        'Aprenda como fazer mechas loiro e morena iluminado com Mauro Chrisostimo',
+        'Curso de morena iluminda, Aprenda como fazer mechas loiro e morena iluminado com Mauro Chrisostimo',
 }
 
 export default function RootLayout({
