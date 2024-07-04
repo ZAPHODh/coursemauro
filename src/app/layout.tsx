@@ -4,6 +4,7 @@ import StyledComponentsRegistry from '../lib/registry'
 import { GlobalStyles } from '../theme/globals'
 import { ThemeClient } from '../theme/ThemeClient'
 import { GoogleTagManager } from '@next/third-parties/google'
+
 const montserrat = Montserrat({
     subsets: ['latin'],
     fallback: ['Georgia', 'ui-serif', 'serif'],
@@ -12,7 +13,8 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
     title: 'Curso de morena iluminda - Iluminados sem segredos',
-    description: 'Aprenda como fazer mechas loiro e morena iluminado',
+    description:
+        'Aprenda como fazer mechas loiro e morena iluminado com Mauro Chrisostimo',
 }
 
 export default function RootLayout({
