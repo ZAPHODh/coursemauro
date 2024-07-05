@@ -51,12 +51,3 @@ export const feedbackData = [
     feedback24,
     feedback25,
 ]
-// // Importing images using require.context
-// const feedbackImages = require.context(
-//     '@/../public/images/feedback',
-//     false,
-//     /\.(jpeg|jpg|png|gif)$/
-// )
-
-// // Creating an array of image paths
-// export const feedbackData = feedbackImages.keys().map(feedbackImages)
