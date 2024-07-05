@@ -14,13 +14,11 @@ export const ResultImage = ({ img, alt }: ResultImageProps) => {
         <Image
             alt={alt}
             src={img.src}
-            width={img.width}
-            height={img.height}
+            width={360}
+            height={400}
             priority
             sizes="(max-width: 762px) 100vw, (min-width: 763px) 20vw"
             style={{
-                height: '400px',
-                width: '360px',
                 border: '1px solid gold',
                 borderRadius: '10px',
                 margin: '10px',
