@@ -46,7 +46,7 @@ export const Card = styled.div`
 `
 export const ContentContainer = styled.div`
     ${({ theme }) => css`
-        color: ${theme.colors.gold};
+        color: ${theme.colors.darker};
         background-color: ${theme.colors.white};
         width: 100%;
         height: 100%;
@@ -59,14 +59,14 @@ export const ContentContainer = styled.div`
             margin: 0;
             padding: 0;
             font-size: 50px;
-            color: ${theme.colors.gold};
+            color: ${theme.colors.brightGold};
         }
         ${Button} {
             margin-top: 15px;
         }
         ${Description} {
             font-size: 12px;
-            color: ${theme.colors.gold};
+            color: ${theme.colors.darker};
             @media (max-width: 762px) {
                 font-size: 11px;
             }
@@ -91,8 +91,8 @@ export const Li = styled.li`
         justify-content: start;
         gap: 10px;
         background-color: #fff;
-        border-top: 0.5px solid ${theme.colors.gold};
-        border-bottom: 0.5 solid ${theme.colors.gold};
+        border-top: 0.5px solid ${theme.colors.darker};
+        border-bottom: 0.5 solid ${theme.colors.darker};
         &:first-child {
             border-top: none;
         }

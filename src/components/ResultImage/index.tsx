@@ -17,7 +17,6 @@ export const ResultImage = ({ img, alt }: ResultImageProps) => {
             width={360}
             height={400}
             priority
-            sizes="(max-width: 762px) 100vw, (min-width: 763px) 20vw"
             style={{
                 border: '1px solid gold',
                 borderRadius: '10px',
