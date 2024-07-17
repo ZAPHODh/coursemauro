@@ -14,7 +14,10 @@ export type HeaderProps = {
 
 export const Header = ({ course = '', description = '' }: HeaderProps) => {
     const onClick = () => {
-        sendGTMEvent({ event: 'buttonClicked', value: 'checkout' })
+        sendGTMEvent({
+            event: 'conversion',
+            value: 'AW-16645432467/g0AsCOexxsMZEJPJlIE-',
+        })
         window.location.href =
             'https://hotmart.com/pt-br/marketplace/produtos/iluminados-sem-segredos/F93860282Y'
     }
@@ -41,3 +44,19 @@ export const Header = ({ course = '', description = '' }: HeaderProps) => {
         </Styled.Wrapper>
     )
 }
+// <!-- Event snippet for Clique de saída conversion page
+// In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+// <script>
+// function gtag_report_conversion(url) {
+//   var callback = function () {
+//     if (typeof(url) != 'undefined') {
+//       window.location = url;
+//     }
+//   };
+//   gtag('event', 'conversion', {
+//       'send_to': 'AW-16645432467/g0AsCOexxsMZEJPJlIE-',
+//       'event_callback': callback
+//   });
+//   return false;
+// }
+// </script>

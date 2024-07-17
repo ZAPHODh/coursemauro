@@ -6,6 +6,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { Check2 } from '@styled-icons/bootstrap/Check2'
 import { Button } from '../Button'
 import { Description } from '../Description'
+import { sendGTMEvent } from '@next/third-parties/google'
 export type PaymentPlanProps = {
     value: number
     benefits: string[]
@@ -13,6 +14,10 @@ export type PaymentPlanProps = {
 
 export const PaymentPlan = ({ value, benefits }: PaymentPlanProps) => {
     const onClick = () => {
+        sendGTMEvent({
+            event: 'conversion',
+            value: 'AW-16645432467/g0AsCOexxsMZEJPJlIE-',
+        })
         window.location.href =
             'https://hotmart.com/pt-br/marketplace/produtos/iluminados-sem-segredos/F93860282Y'
     }
