@@ -14,10 +14,6 @@ export type PaymentPlanProps = {
 
 export const PaymentPlan = ({ value, benefits }: PaymentPlanProps) => {
     const onClick = () => {
-        sendGTMEvent({
-            event: 'conversion',
-            value: 'AW-16645432467/g0AsCOexxsMZEJPJlIE-',
-        })
         window.location.href =
             'https://hotmart.com/pt-br/marketplace/produtos/iluminados-sem-segredos/F93860282Y'
     }
