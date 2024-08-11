@@ -25,7 +25,10 @@ export default function RootLayout({
     return (
         <html lang="pt-BR">
             <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_ANALYZER} />
-            <body className={montserrat.className}>
+            <body
+                className={montserrat.className}
+                style={{ width: '100%', margin: '0px', padding: '0px' }}
+            >
                 <ThemeClient>
                     <StyledComponentsRegistry>
                         {children}

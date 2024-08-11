@@ -6,7 +6,7 @@ import * as Styled from './styles'
 import mauroPic from '../../../public/images/mauro.webp'
 import { Button } from '../Button'
 import Image from 'next/legacy/image'
-import { sendGTMEvent } from '@next/third-parties/google'
+
 export type HeaderProps = {
     course: string
     description: string

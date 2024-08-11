@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { Check2 } from '@styled-icons/bootstrap/Check2'
 import { Button } from '../Button'
 import { Description } from '../Description'
-import { sendGTMEvent } from '@next/third-parties/google'
+
 export type PaymentPlanProps = {
     value: number
     benefits: string[]

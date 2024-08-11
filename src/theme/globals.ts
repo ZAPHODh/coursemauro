@@ -9,23 +9,17 @@ const montserrat = Montserrat({
     fallback: ['Georgia', 'ui-serif', 'serif'],
     weight: ['300', '700'],
 })
-
 export const GlobalStyles = createGlobalStyle`${() => css`
-    html,
-    body {
-        width: 100%;
-        max-width: 100vw;
-        padding: 0;
-        margin: 0;
-        font-family: ${montserrat.style.fontFamily};
-        overflow-x: hidden;
+    * {
+        box-sizing: border-box;
     }
 
-    main {
-        width: 100%;
-        max-width: 100vw;
-        padding: 0;
-        margin: 0;
+    html,
+    body {
+        /* width: 100%;
+        max-width: 100vw; */
+        font-family: ${montserrat.style.fontFamily};
+        overflow-x: hidden;
     }
 
     input {
@@ -35,10 +29,6 @@ export const GlobalStyles = createGlobalStyle`${() => css`
     a {
         color: inherit;
         text-decoration: none;
-    }
-
-    * {
-        box-sizing: border-box;
     }
 
     button {
